@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -24,9 +25,25 @@ namespace KASHOP.DAL.Repository
             return category;
         }
 
-        public async Task<List<T>> GetAllAsync()
+        public async Task<List<T>> GetAllAsync(string[]? includes=null)
         {
-            return await _context.Set<T>().ToListAsync();//.Include(c => c.Translatione).ToListAsync();
+            IQueryable<T> query = _context.Set<T>();
+            if(includes != null)
+            foreach (var include in includes)
+                    query= query.Include(include); 
+            return await query.ToListAsync();
+
+        }
+        public async Task<T> GetOneAsync(Expression<Func<T,bool>> filter,string[]? includes = null)
+        {
+            IQueryable<T> query = _context.Set<T>();
+            if(includes != null)
+            foreach (var include in includes)
+                    query= query.Include(include);
+            var cat= await query.FirstOrDefaultAsync(filter);
+            
+            return cat;
+
         }
     }
 }

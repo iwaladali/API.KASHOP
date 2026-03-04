@@ -13,3 +13,4 @@ C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.BLL\obj\Debug\net9.0\KASHOP.B
 C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.BLL\obj\Debug\net9.0\refint\KASHOP.BLL.dll
 C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.BLL\obj\Debug\net9.0\KASHOP.BLL.pdb
 C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.BLL\obj\Debug\net9.0\ref\KASHOP.BLL.dll
+C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.BLL\obj\Debug\net9.0\KASHOP.BLL.sourcelink.json

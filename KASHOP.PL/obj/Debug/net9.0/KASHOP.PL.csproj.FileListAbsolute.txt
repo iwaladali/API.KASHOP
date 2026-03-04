@@ -174,3 +174,4 @@ C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.PL\obj\Debug\net9.0\refint\KA
 C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.PL\obj\Debug\net9.0\KASHOP.PL.pdb
 C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.PL\obj\Debug\net9.0\KASHOP.PL.genruntimeconfig.cache
 C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.PL\obj\Debug\net9.0\ref\KASHOP.PL.dll
+C:\Users\ibrahim\Desktop\Asp.net\API\KASHOP\KASHOP.PL\obj\Debug\net9.0\KASHOP.PL.sourcelink.json
